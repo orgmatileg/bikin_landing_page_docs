@@ -19,7 +19,9 @@
               "mulai-cepat/pendahuluan",
               "mulai-cepat/bikin-akun",
               "mulai-cepat/bikin-produk-digital-pertama",
-              "mulai-cepat/bikin-halaman-checkout-pertama"
+              "mulai-cepat/bikin-halaman-checkout-pertama",
+              "mulai-cepat/simulasi-checkout-pelanggan",
+              "mulai-cepat/simulasi-verifikasi-order"
             ]
           }
         ]

@@ -1,0 +1,67 @@
+---
+title: "Simulasi Verifikasi Order"
+---
+
+# ✅ Simulasi Verifikasi Order
+
+Setelah pelanggan menyelesaikan checkout dan melakukan transfer, Anda sebagai penjual perlu melakukan verifikasi manual sebelum memberikan akses produk.
+
+---
+
+## 🧭 1. Masuk ke Halaman Orders
+
+1. Buka dashboard toko Anda  
+   👉 [https://bikinlanding.page/dashboard/orders](https://bikinlanding.page/dashboard/orders)
+
+2. Di bagian **Order List**, cari pesanan yang statusnya masih `pending`
+
+3. Klik ikon **🔍 mata (View Detail)** untuk melihat detail pesanan.
+
+---
+
+## 🔍 2. Periksa Detail Order
+
+Di halaman **Order Details**, Anda akan melihat:
+
+- Order Code
+- Status pesanan
+- Data pelanggan (nama, email, WhatsApp)
+- Rincian produk & jumlah transfer
+- Metode pembayaran (Manual Transfer)
+
+> 💡 Sebaiknya Anda memverifikasi pembayaran dengan mengecek **mutasi rekening bank** sesuai nominal dan waktu pesanan.
+
+---
+
+## ✔️ 3. Tandai Sebagai Lunas
+
+Jika pembayaran sudah Anda terima:
+
+1. Klik tombol hijau **Mark as Completed**
+2. Akan muncul konfirmasi:
+
+Confirm Status Update
+Are you sure you want to update the order status to completed?
+
+3. Klik **Confirm** jika Anda sudah yakin, atau klik **Cancel** untuk membatalkan
+
+> Setelah Anda klik **Confirm**, status pesanan akan berubah menjadi `Paid`.
+
+---
+
+## 📧 4. Pelanggan Akan Menerima Email Otomatis
+
+Setelah status order diubah menjadi completed, sistem akan mengirimkan email konfirmasi ke pelanggan.
+
+Isi email meliputi:
+
+- Detail order (produk, harga, waktu)
+- Status pembayaran: **Paid**
+- **Link download atau akses ke produk digital**
+
+---
+
+## 🔐 Tips Keamanan
+
+- Pastikan Anda hanya menandai pesanan sebagai "completed" jika sudah benar-benar menerima dana
+- Simpan bukti mutasi atau transfer untuk arsip
